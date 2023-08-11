@@ -409,3 +409,55 @@ form button{
     margin-right: 70px;
     align-items: justify-content;
 }
+@media screen and (max-width: 600px) {
+    .banner-text h1{
+        font-size: 80px;
+    }
+    .title-text h1{
+        font-size: 30px;
+    }
+    .feature-box h1{
+        font-size: 20px;
+    }
+    .feature-box p{
+        font-size: 10px;
+        margin: auto;
+    }
+    .testimonial-box{
+        align-self: center;
+    }
+    .feature-text p{
+        padding: 0 30px;
+        text-align: left;
+        font: 10px;
+    }
+    
+}
+@media screen and (max-width: 770px) {
+    .features{
+        flex-basis: 100%;
+    }
+    .features img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-desc p{
+        font-size: 12px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .testimonial-col{
+        flex-basis: 100%;
+    }
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+}
