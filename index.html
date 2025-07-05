@@ -12,14 +12,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <style>
-    /* Define the style for the elements that will be animated */
+    
     .scroll-animation {
       opacity: 0;
       transform: translateY(50px);
       transition: all 1s ease-out;
     }
   
-    /* Define the style for the elements that are visible in the viewport */
+    
     .scroll-animation.visible {
       opacity: 1;
       transform: translateY(0);
@@ -57,7 +57,7 @@
         <img src="images/menu.png" id="menu">
     </div>
 
-    <!--Features-->
+   
     <section id="feature">
         
         <div class="title-text">
@@ -116,7 +116,7 @@
         
     </section>
 
-    <!--Services-->
+
 
 
     <section id="service">
@@ -172,7 +172,7 @@
         </div>
 
     </section>
-    <!--Testimolial-->
+   
     <section id="testimonial">
         <div class="title-text">
             <div class="scroll-animation">
@@ -227,7 +227,7 @@
             </div>
             </div>
         </div>
-        <!--Prices-->
+  
 <section id="prices">
     <div class="title">
         <div class="scroll-animation">
@@ -263,7 +263,7 @@
 
 
 </section>
-<!--Formulaire-->
+
 <br>
 <br>
 <section id="formulaire">
@@ -305,7 +305,7 @@
     });
     </script>
     </section>
-    <!--Formulaire-->
+
 
 
 
@@ -314,7 +314,7 @@
 
     </section>
 
-    <!--Footer-->
+
 
     <section id="footer">
         <div class="title-text">
@@ -364,14 +364,14 @@
 
      </script>
      <script>
-        // Get all the elements with the scroll-animation class
+       
         const elements = document.querySelectorAll(".scroll-animation");
     
-        // Define a function to check if an element is in the viewport
+      
         function isInViewport(element) {
-          // Get the bounding rectangle of the element
+      
           const rect = element.getBoundingClientRect();
-          // Return true if the element is within the viewport, false otherwise
+         
           return (
             rect.top >= 0 &&
             rect.left >= 0 &&
@@ -380,30 +380,30 @@
           );
         }
     
-        // Define a function to add the visible class to the elements that are in the viewport
+       
         function animateElements() {
-          // Loop through each element
+     
           for (let element of elements) {
-            // Check if the element is in the viewport
+         
             if (isInViewport(element)) {
-              // Add the visible class to the element
+            
               element.classList.add("visible");
             }
           }
         }
     
-        // Call the animateElements function when the page loads
+      
         animateElements();
     
-        // Call the animateElements function when the window scrolls
+    
         window.addEventListener("scroll", animateElements);
       </script>
-      <!-- Add some elements with the scroll-animation class -->
+    
   <div class="scroll-animation">This is a scroll animation</div>
   <div class="scroll-animation">This is another scroll animation</div>
   <div class="scroll-animation">This is yet another scroll animation</div>
   
-  <!-- Add a script to detect when the elements are in the viewport and add the visible class -->
+ 
      
 
 
